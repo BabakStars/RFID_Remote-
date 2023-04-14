@@ -538,7 +538,7 @@ void remoot()
     code = mySwitch.getReceivedValue();
     Serial.println(code);
     delay(10);
-    if(code == 2315553)
+    if(code == YOUR CODE)
     {
       digitalWrite(relay, HIGH);
       delay(1000);
